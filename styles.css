@@ -20,7 +20,7 @@
 }
 
 .inputText{
-    width: 37.5em;
+    width: 30em;
     height: 26em;
     position: relative;
     align-items: center;
@@ -42,13 +42,16 @@
 }
 
 .textMessage {
-    width: 25em;
+    width: 15em;
     height: 59em;
     border-radius: 1em;
     border: none;
     margin-right: 6em;
     outline: none;
     resize: none;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
 }
 
 .buttons {
