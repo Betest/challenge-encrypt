@@ -9,17 +9,25 @@
 </head>
 <body>
     <main class="main">
-        <section>
-            <textarea class="text-encrypt" name="textEncrypt" id="textEncrypt" placeholder="Ingresa el texto a encriptar" cols="30" rows="10"></textarea>
-            <div>
-                <button class="btn-encrypt">Encriptar</button>
-                <button class="btn-decrypt">Desencriptar</button>
+        <div class="container">
+            <section class="">
+                <textarea class="inputText" name="textEncrypt" id="textEncrypt" placeholder="Ingresa el texto a encriptar"></textarea>
+            </section>
+    
+            <div class="buttons">
+                <button class="btn btnEncrypt">Encriptar</button>
+                <button class="btn btnDecrypt">Desencriptar</button>
             </div>
+        </div>
+
+
+        <section class="">
+            <textarea class="textMessage" name="outputText" id="outputText"></textarea>
         </section>
-        <section class="textMessage">
-            <textarea name="outputText" id="outputText" cols="30" rows="10"></textarea>
-        </section>   
+        
+        
     </main>
     
 </body>
+<script src="main.js"></script>
 </html>

@@ -7,9 +7,66 @@
 }
 
 .main {
-    width: 940px;
+    width: 58.75em;
     position: relative;
-    top: 240px;
+    top: 15em;
     margin: auto;
     text-align: center;
+    display: flex;
+}
+
+.inputText{
+    width: 37.5em;
+    height: 51.5em;
+    position: relative;
+    align-items: center;
+    margin: auto;
+    background: none;
+    border: none;
+}
+
+.inputText::before {
+    background: none;
+    border: none;
+    text-decoration: none;
+}
+
+.textMessage {
+    width: 25em;
+    height: 59em;
+    border-radius: 1em;
+    border: none;
+    margin-right: 6em;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn {
+    border-radius: 1em;
+    width: 20.5em;
+    height: 4.063em;
+    margin: 2em;
+    font-size: 1em;
+    cursor: pointer;
+}
+.btnEncrypt {
+    background-color: #0A3871;
+    color: white;
+}
+
+.btnEncrypt:hover {
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+.btnDecrypt {
+    background-color: #D8DFE8;
+    color: white;
+}
+
+.btnDecrypt:hover {
+    background-color: #0A3871;
+    color: #D8DFE8;
 }
