@@ -11,23 +11,27 @@
     <main class="main">
         <div class="container">
             <section class="">
-                <textarea class="inputText" name="textEncrypt" id="textEncrypt" placeholder="Ingresa el texto a encriptar"></textarea>
+                <textarea class="inputText" id="textToEncrypt" placeholder="Ingresa el texto a encriptar"></textarea>
             </section>
+
+            <div class="info">
+                <textarea class="info" id="info"></textarea>
+            </div>
     
             <div class="buttons">
-                <button class="btn btnEncrypt">Encriptar</button>
-                <button class="btn btnDecrypt">Desencriptar</button>
+                <button class="btn btnEncrypt" onclick="btnEncrypt()">Encriptar</button>
+                <button class="btn btnDecrypt" onclick="btnDecrypt()">Desencriptar</button>
             </div>
         </div>
 
 
         <section class="">
-            <textarea class="textMessage" name="outputText" id="outputText"></textarea>
+            <textarea class="textEncrypt" id="textEncrypt"></textarea>
         </section>
         
         
     </main>
     
+    <script src="main.js"></script>
 </body>
-<script src="main.js"></script>
 </html>

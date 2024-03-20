@@ -41,9 +41,9 @@
     text-decoration: none;
 }
 
-.textMessage {
-    width: 15em;
-    height: 59em;
+.textEncrypt {
+    width: 20em;
+    height: 30em;
     border-radius: 1em;
     border: none;
     margin-right: 6em;
@@ -67,6 +67,25 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+.info {
+    width: 100%;
+    display: table;
+    color: #495057;
+    /* table-layout: fixed; */
+    padding-left: 1.5em;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.info::before {
+    background: none;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
 .btnEncrypt {
     background-color: #0A3871;
     color: white;
