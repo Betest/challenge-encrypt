@@ -15,14 +15,24 @@
     display: flex;
 }
 
+.inputText::placeholder {
+    color: #0A3871;
+}
+
 .inputText{
     width: 37.5em;
-    height: 51.5em;
+    height: 26em;
     position: relative;
     align-items: center;
     margin: auto;
     background: none;
     border: none;
+    outline: none;
+    resize: none;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1px;
+    margin-left: 2em;
 }
 
 .inputText::before {
@@ -37,6 +47,8 @@
     border-radius: 1em;
     border: none;
     margin-right: 6em;
+    outline: none;
+    resize: none;
 }
 
 .buttons {
@@ -49,6 +61,7 @@
     height: 4.063em;
     margin: 2em;
     font-size: 1em;
+    font-weight: bold;
     cursor: pointer;
 }
 .btnEncrypt {
